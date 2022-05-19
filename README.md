@@ -82,4 +82,6 @@ Vue offers the ability to transition and animate through its animation hooks, Th
 
 In the App.vue there are keyframes declared that because they are not scoped and are parent Views, allow child component to use them. So there is scoped separation, in other words, things that belong only to the component and global classes, things that could be used in the entire application.
 
+### Aditional - PWA
+There is a standart Service Worker that creates support for PWA.
 
